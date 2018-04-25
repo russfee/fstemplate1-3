@@ -1,0 +1,141 @@
+0000.007 (0) Opened log file at time: Wed, 25 Apr 2018 17:20:57 +0000 on http://fstemplate1-3.local
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.5.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MBP.hitronhub.home 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 35.2M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 98199.7 MB
+0000.041 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.045 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.047 (0) Semaphore (f, wp_options) being initialised
+0000.094 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.100 (0) Set semaphore last lock (f) time to 2018-04-25 17:20:57
+0000.107 (0) Semaphore lock (f) complete
+0000.121 (0) Backup run: resumption=0, nonce=5eb62de253c8, begun at=1524676857 (0s ago), job type=backup
+0000.126 (0) Scheduling a resumption (1) after 300 seconds (1524677157) in case this run gets aborted
+0000.158 (0) Checking if we have a zip executable available
+0000.160 (0) Testing: /usr/bin/zip
+0000.230 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.232 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.235 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.243 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.274 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.296 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.300 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.345 (0) Working binary zip found: /usr/bin/zip
+0000.353 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.354 (0) Creation of backups of directories: beginning
+0000.362 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0001.082 (0) Total entities for the zip file: 389 directories, 3136 files (0 skipped as non-modified), 58.7 MB
+0001.088 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.097 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.107 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.122 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.135 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.137 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 3136 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.936 (0) backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: size is now: 3.80 MB
+0001.947 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 600 files added (on-disk size: 3867.2 KB)
+0001.956 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 700 files added (on-disk size: 3867.2 KB)
+0001.961 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 800 files added (on-disk size: 3867.2 KB)
+0001.967 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 900 files added (on-disk size: 3867.2 KB)
+0001.973 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1000 files added (on-disk size: 3867.2 KB)
+0001.975 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.7 MB, 3136 files batched, 501 (1002) added so far); re-opening (prior size: 3867.2 KB)
+0003.481 (0) backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: size is now: 9.80 MB
+0003.494 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1100 files added (on-disk size: 9994.3 KB)
+0003.502 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1200 files added (on-disk size: 9994.3 KB)
+0003.509 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1300 files added (on-disk size: 9994.3 KB)
+0003.515 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1400 files added (on-disk size: 9994.3 KB)
+0003.525 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1500 files added (on-disk size: 9994.3 KB)
+0003.526 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 3136 files batched, 501 (1503) added so far); re-opening (prior size: 9994.3 KB)
+0004.010 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1600 files added (on-disk size: 11088 KB)
+0004.018 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1700 files added (on-disk size: 11088 KB)
+0004.027 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1800 files added (on-disk size: 11088 KB)
+0004.041 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 1900 files added (on-disk size: 11088 KB)
+0004.049 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2000 files added (on-disk size: 11088 KB)
+0004.051 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 3136 files batched, 501 (2004) added so far); re-opening (prior size: 11088 KB)
+0004.429 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2100 files added (on-disk size: 12007.7 KB)
+0004.436 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2200 files added (on-disk size: 12007.7 KB)
+0004.443 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2300 files added (on-disk size: 12007.7 KB)
+0004.450 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2400 files added (on-disk size: 12007.7 KB)
+0004.457 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2500 files added (on-disk size: 12007.7 KB)
+0004.458 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 3136 files batched, 501 (2505) added so far); re-opening (prior size: 12007.7 KB)
+0004.864 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2600 files added (on-disk size: 13106.4 KB)
+0004.873 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2700 files added (on-disk size: 13106.4 KB)
+0004.887 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2800 files added (on-disk size: 13106.4 KB)
+0004.908 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 2900 files added (on-disk size: 13106.4 KB)
+0004.919 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 3000 files added (on-disk size: 13106.4 KB)
+0004.925 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12 MB, 3136 files batched, 501 (3006) added so far); re-opening (prior size: 13106.4 KB)
+0005.852 (0) backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: size is now: 19.00 MB
+0005.861 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip.tmp: 3100 files added (on-disk size: 19470.2 KB)
+0007.202 (0) Created plugins zip (0) - 21415.9 KB in 6.8 s (3132.4 KB/s) (sha1: ed9b7d1376814aa45a22268ec298a3180b42eb6c, sha256: f70f41a73ce938e033bd8fad3669f179c921fc306b2e23e45a3db451d2dacfd2)
+0007.204 (0) Deleting old temporary file: log.c95e3a207a84-browser.txt
+0007.217 (0) Beginning creation of dump of themes (split every: 25 MB)
+0007.329 (0) Total entities for the zip file: 39 directories, 239 files (0 skipped as non-modified), 4.5 MB
+0007.340 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.353 (0) Zip: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.806 (0) backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip.tmp: size is now: 3.10 MB
+0007.996 (0) Created themes zip (0) - 3161.7 KB in 0.8 s (4080.3 KB/s) (sha1: c5b86260c97e7d9933a8ff4b1404c25888391520, sha256: 30ba481eabc365b12bc1a761ab3fe0927348e1138f634a88fb17d6729b5888e7)
+0008.011 (0) Exclusion option setting (uploads): 
+0008.013 (0) Looking for candidates to back up in: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/uploads
+0008.015 (0) finding files: 2018: adding to list (1)
+0008.018 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0008.031 (0) Total entities for the zip file: 2 directories, 17 files (0 skipped as non-modified), 1.2 MB
+0008.076 (0) backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-uploads.zip.tmp: size is now: 1.20 MB
+0008.167 (0) Created uploads zip (0) - 1223.2 KB in 0.1 s (8398.7 KB/s) (sha1: d37a7cc288465f31852d34058a2abbffb3cd10f5, sha256: 88f04104934897239583c2bacd747ec61c9b9aee4b7ae21370a73024838d9f49)
+0008.171 (0) No backup of others: excluded by user's options
+0008.188 (0) Saving backup status to database (elements: 6)
+0008.197 (0) No database backup (wp) - not part of this run
+0008.205 (0) backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.207 (0) backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.210 (0) backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.212 (0) Saving backup history. Total backup size: 25.2 MB
+0008.218 (0) Requesting upload of the files that have not yet been successfully uploaded (3)
+0008.230 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0008.234 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+0008.235 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0008.245 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0008.704 (0) Dropbox quota usage: used=209398.2 MB, total=1059200 MB, available=849801.8 MB
+0008.705 (0) Dropbox: Attempt to upload: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip to: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip
+0019.522 (0) Dropbox chunked upload: 4.8 % uploaded (AAAAAAACjoXl0N9x9EDaog, 1048576, 1024 KB)
+0024.383 (0) Dropbox chunked upload: 9.6 % uploaded (AAAAAAACjoXl0N9x9EDaog, 2097152, 1536 KB)
+0031.184 (0) Dropbox chunked upload: 16.7 % uploaded (AAAAAAACjoXl0N9x9EDaog, 3670016, 1536 KB)
+0034.350 (0) Dropbox chunked upload: 23.9 % uploaded (AAAAAAACjoXl0N9x9EDaog, 5242880, 4096 KB)
+0039.923 (0) Dropbox chunked upload: 43 % uploaded (AAAAAAACjoXl0N9x9EDaog, 9437184, 6144 KB)
+0049.095 (0) Dropbox chunked upload: 71.7 % uploaded (AAAAAAACjoXl0N9x9EDaog, 15728640, 5632 KB)
+0054.668 (0) Dropbox chunked upload: 98 % uploaded (AAAAAAACjoXl0N9x9EDaog, 21495808, 8704 KB)
+0058.022 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACjoXl0N9x9EDaog, 21929860, 8704 KB)
+0059.885 (0) Recording as successfully uploaded: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip (bdeacc56f7dca21b0eb8d38ace90947f)
+0059.892 (0) Deleting local file: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip: skipped: user has unchecked updraft_delete_local option
+0059.893 (0) Dropbox: File upload success (backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-plugins.zip): 21415 KB in 51s (418 KB/s)
+0060.314 (0) Dropbox quota usage: used=209444.3 MB, total=1059200 MB, available=849755.7 MB
+0060.317 (0) Dropbox: Attempt to upload: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip to: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip
+0067.453 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACjoZ47XMpLZC1DA, 3237602, 8704 KB)
+0071.491 (0) Recording as successfully uploaded: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip (93eabb8f9002f3c5d8f7f3c600b452db)
+0071.497 (0) Deleting local file: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip: skipped: user has unchecked updraft_delete_local option
+0071.498 (0) Dropbox: File upload success (backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-themes.zip): 3161 KB in 11s (282 KB/s)
+0071.940 (0) Dropbox quota usage: used=209447.4 MB, total=1059200 MB, available=849752.6 MB
+0071.941 (0) Dropbox: Attempt to upload: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-uploads.zip to: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-uploads.zip
+0081.403 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAACjoegE14i1uHr2w, 1252506, 8704 KB)
+0085.451 (0) Recording as successfully uploaded: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-uploads.zip (f3ed2487e0e472aa9e09ba4f8fac32f5)
+0085.458 (0) Deleting local file: backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-uploads.zip: skipped: user has unchecked updraft_delete_local option
+0085.459 (0) Dropbox: File upload success (backup_2018-04-25-1720_FSTemplate13_5eb62de253c8-uploads.zip): 1223 KB in 13s (90 KB/s)
+0085.467 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+0085.469 (0) Number of backup sets in history: 3; groups (db): 1
+0085.470 (0) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0085.471 (0) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0085.471 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0085.472 (0) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0085.472 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.473 (0) Number of backup sets in history: 3; groups (files): 1
+0085.475 (0) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0085.475 (0) This backup set is the backup set just made, so will not be deleted.
+0085.476 (0) This backup set is the backup set just made, so will not be deleted.
+0085.476 (0) This backup set is the backup set just made, so will not be deleted.
+0085.477 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0085.477 (0) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0085.478 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0085.478 (0) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0085.479 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.480 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0085.483 (0) Resume backup (5eb62de253c8, 0): finish run
+0085.487 (0) Decremented the semaphore (f) by 1
+0085.490 (0) Semaphore (f) unlocked
+0085.491 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0085.498 (0) No email will/can be sent - the user has not configured an email address.
+0085.499 (0) The backup apparently succeeded and is now complete
