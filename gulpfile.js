@@ -22,7 +22,7 @@ package = require('./package.json');
 // Project Variables
 
 var _theme_loc = 'wp-content/themes/Fee and Sons 2018/',
-_local_server = 'http://fstemplate1-2.local';
+_local_server = 'http://fstemplate1-3.local';
 
 
 // Inject Package.json Project details into CSS files
