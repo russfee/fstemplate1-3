@@ -8,14 +8,6 @@
  */
 /* Base Styles
 =================================================== */
-.testbaseclass {
-  padding: 5px;
-}
-
-.anothertest {
-  margin: 0;
-}
-
 /*=================================================
 Normalize Reset
 =================================================== */
@@ -1494,6 +1486,45 @@ li#field_5_4.gfield.gf_right_half.field_sublabel_below.field_description_below.h
 
 .ss-main .ss-content .ss-list .ss-option.ss-hide {
   display: none;
+}
+
+/*=================================================
+Top Bar
+=================================================== */
+.top-bar-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 20px 10px 0;
+}
+
+.top-bar-content {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+.top-bar-item {
+  margin-left: 20px;
+}
+
+.top-bar-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-bar-item a:hover {
+  color: #333333;
+}
+
+.top-bar-image {
+  width: 30px;
+  margin-left: 20px;
 }
 
 /* Modules

@@ -20,6 +20,21 @@ function my_layout_title($title, $field, $layout, $i) {
 }
 add_filter('acf/fields/flexible_content/layout_title', 'my_layout_title', 10, 4);
 
+//ACF OPTIONS PAGE
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+}
+if( function_exists('acf_set_options_page_title') )
+{
+    acf_set_options_page_title( __('Options') );
+    acf_add_options_sub_page("Global Elements");
+	acf_add_options_sub_page("Banners");
+
+}
+
+
 // EDITOR STYLESHEET
 function my_theme_add_editor_styles() {
     add_editor_style( 'style-editor.css' );

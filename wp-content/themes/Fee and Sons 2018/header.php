@@ -29,6 +29,10 @@
 <!--==========NAV START*============-->
 <div class="container">
 	<div class="row constrain">
+		<?php
+		get_template_part ('layout/top-bar/top-bar');
+		?>
+
 		<div class="nav-container">
 			<div id="logo">
 				<a title="Back Home" href="<?php echo esc_url( home_url() ) ?>"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo.png"></a>

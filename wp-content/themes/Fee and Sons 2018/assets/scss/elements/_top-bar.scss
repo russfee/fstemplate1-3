@@ -1,0 +1,36 @@
+/*=================================================
+Top Bar
+=================================================== */
+
+
+.top-bar-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 20px 10px 0;
+}
+
+.top-bar-content {
+	display: flex;
+	color: $white;
+}
+
+.top-bar-item {
+	margin-left: 20px;
+	
+	a{
+		color: $white;
+		text-decoration: none;
+		
+		&:hover {
+		color: $shaft;
+	}
+
+	}
+}
+.top-bar-image {
+	width: 30px;
+	margin-left: 20px;
+}
+
