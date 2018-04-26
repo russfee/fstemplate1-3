@@ -29,59 +29,6 @@ Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, 
 	#Misc */
 
 
-/* #Basic Styles
-================================================== */
-
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-html {
-	height: 100%;
-}
-body {
-	background: #f5f5f5;
-	font: 16px/24px "Lato", Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	color: #333;
-	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-	-webkit-text-size-adjust: 100%;
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
- }
- #logo {
-	 padding: 5px 0 0 0;
-}
-.container {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.row {
-	width: 100%;
-	margin: 0 auto;
-	overflow: hidden;
-}
-.constrain {
-	max-width: 1260px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.spacing-top {
-	margin-top: 40px;
-}
-.spacing-bottom {
-	margin-bottom: 40px;
-}
-.standard-content-container {
-	padding: 20px;
-	background-color: #fff;
-}
-.empty {
-	
-}
 
 
 /* #Banner
