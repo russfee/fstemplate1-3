@@ -1,4 +1,4 @@
-/* #Basic Styles
+/* #Global
 ================================================== */
 
 *, *:before, *:after {
@@ -21,12 +21,12 @@ body {
 	flex-direction: column;
  }
  #logo {
-	 padding: 5px 0 0 0;
+	 padding: 20px 0;
 }
 .container {
 	padding-left: 0px;
 	padding-right: 0px;
-	background: $white;
+	background-color: $white;
 }
 
 .row {
@@ -36,8 +36,8 @@ body {
 }
 .constrain {
 	max-width: 1260px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 .spacing-top {
 	margin-top: 40px;

@@ -1,65 +1,5 @@
 /* Base Styles
 =================================================== */
-/* #Basic Styles
-================================================== */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  background: #f5f5f5;
-  font: 16px/24px "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: #333;
-  -webkit-font-smoothing: antialiased;
-  /* Fix for webkit rendering */
-  -webkit-text-size-adjust: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-#logo {
-  padding: 5px 0 0 0;
-}
-
-.container {
-  padding-left: 0px;
-  padding-right: 0px;
-  background: #fff;
-}
-
-.row {
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.constrain {
-  max-width: 1260px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.spacing-top {
-  margin-top: 40px;
-}
-
-.spacing-bottom {
-  margin-bottom: 40px;
-}
-
-.standard-content-container {
-  padding: 20px;
-  background-color: #fff;
-}
-
 /*=================================================
 Normalize Reset
 =================================================== */
@@ -704,100 +644,91 @@ hr {
   margin: 0 0 1.3em 0;
 }
 
+/* #Global
+================================================== */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #f5f5f5;
+  font: 16px/24px "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#logo {
+  padding: 20px 0;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #fff;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.constrain {
+  max-width: 1260px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.spacing-top {
+  margin-top: 40px;
+}
+
+.spacing-bottom {
+  margin-bottom: 40px;
+}
+
+.standard-content-container {
+  padding: 20px;
+  background-color: #fff;
+}
+
 /* Elements
 =================================================== */
 /*=================================================
 Buttons
 =================================================== */
-.btn,
-input.btn,
-input[type="button"],
-.btn:link,
-.btn:visited,
-.oldernewer p a {
-  color: #fff;
-  border: solid 1px #D02630;
-  background-color: #D02630;
-  display: inline-block;
-  font-size: .9em;
-  font-weight: 400;
-  line-height: 1;
-  position: relative;
-  padding: .9em 1.8em;
-  border-radius: 0px;
-  transition: all 0.25s;
-  text-decoration: none;
-  text-transform: uppercase;
-  /*  Generic Button Hover Styling  */
-  /*  ---------------------------------------------------*/
-  /*  Generic Button Focus Styling  */
-  /*  ---------------------------------------------------*/
+.btn {
+  color: #333333;
+  padding: 10px;
+  background: #D02630;
+  transition: background .25s ease-in-out;
 }
 
-.btn:hover,
-input.btn:hover,
-input[type="button"]:hover,
-.btn:link:hover,
-.btn:visited:hover,
-.oldernewer p a:hover {
-  transition: all 0.25s;
-  color: #444;
+.btn:hover {
   background: #fff;
+  color: #333333;
+}
+
+.btn a {
   text-decoration: none;
-}
-
-.btn:focus, .btn:active,
-input.btn:focus,
-input.btn:active,
-input[type="button"]:focus,
-input[type="button"]:active,
-.btn:link:focus,
-.btn:link:active,
-.btn:visited:focus,
-.btn:visited:active,
-.oldernewer p a:focus,
-.oldernewer p a:active {
-  transition: all, 0.25s;
   color: #fff;
-  background: rgba(51, 51, 51, 0.9);
-  text-decoration: none;
-  outline: none;
+  padding: 10px;
 }
 
-/*=================================================
-Alternate Button Styling
-=================================================== */
-/* Full-width */
-.btn-full,
-.btn.btn-full {
-  width: 100%;
-}
-
-/* Half  */
-.btn-50 {
-  width: 50%;
-}
-
-/*  Aletrnate Colors  */
-/*  ---------------------------------------------------*/
-.btn.btn-secondary {
-  border-color: #333;
-  color: #333;
-}
-
-.btn.btn-secondary:hover {
-  background-color: #333;
-  color: #fff;
-}
-
-.btn.btn-white {
-  background-color: transparent;
-  border-color: #fff;
-  color: #fff;
-}
-
-.btn.btn-white:hover {
-  background-color: rgba(251, 251, 251, 0.17);
+.btn a:hover {
+  color: #333333;
 }
 
 /*------------------------------------------------------------------------*  Submit Buttons
@@ -1552,7 +1483,7 @@ Top Bar
   justify-content: flex-end;
   -ms-flex-align: center;
   align-items: center;
-  padding: 10px 20px 10px 0;
+  padding: 10px 40px 10px 0;
 }
 
 .top-bar-content {
@@ -1561,8 +1492,13 @@ Top Bar
   color: #fff;
 }
 
+.top-bar-content :last-of-type {
+  border: none;
+}
+
 .top-bar-item {
-  margin-left: 20px;
+  padding: 0 20px;
+  border-right: 1px solid #eaeaea;
 }
 
 .top-bar-item a {
@@ -1642,8 +1578,13 @@ Top Bar
   justify-content: space-around;
   -ms-flex-align: center;
   align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 756px) {
+  .callout-multiple-container {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 }
 
 .callout-multiple-indvidual {
@@ -1653,8 +1594,6 @@ Top Bar
   flex-flow: column;
   -ms-flex-align: center;
   align-items: center;
-  padding: 40px;
-  max-width: 300px;
 }
 
 .callout-multiple-paragraph {
@@ -1712,13 +1651,21 @@ Top Bar
 .home-banner-headline {
   font-size: 2.5em;
   font-weight: bold;
-  color: #333;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .home-banner-subtitle {
   font-size: 1.5em;
   margin: 20px 0;
-  color: #333;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* Module - Paragraph
+================================================== */
+p {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5em;
 }
 
 /* Specific

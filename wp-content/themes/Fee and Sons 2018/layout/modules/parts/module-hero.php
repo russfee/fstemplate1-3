@@ -8,7 +8,7 @@
 			<div class="home-banner-subtitle <?php the_sub_field('text_color'); ?>">
 			<?php the_sub_field('banner_subheading'); ?>
 			</div> <!--home-banner-headline-->
-			<div class="banner-button-dark">
+			<div class="btn primary">
 			<a href="<?php the_sub_field('link'); ?>"><?php the_sub_field('button_text'); ?></a>
 			</div> <!--home-banner-button-->
 

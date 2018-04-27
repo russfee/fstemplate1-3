@@ -30,7 +30,7 @@
 				
 		<div class="callout-multiple-indvidual">
 			<div class="callout-multiple-image">
-			 <img src="<?php the_sub_field('top_image'); ?>">
+			 <img style="<?php the_sub_field('image_shape'); ?>" src="<?php the_sub_field('top_image'); ?>">
 			</div> <!--callout-multiple-image-->
 			<div class="callout-multiple-headline">
 			<?php the_sub_field('headline'); ?>
