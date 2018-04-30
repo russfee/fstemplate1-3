@@ -29,7 +29,8 @@ if( function_exists('acf_add_options_page') ) {
 if( function_exists('acf_set_options_page_title') )
 {
     acf_set_options_page_title( __('Options') );
-    acf_add_options_sub_page("Global Elements");
+    acf_add_options_sub_page("Top Bar");
+    acf_add_options_sub_page("Footer");
 	acf_add_options_sub_page("Banners");
 
 }

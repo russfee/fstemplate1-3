@@ -49,15 +49,22 @@
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	//padding: 40px;
+	padding: 20px 10px 0 10px;	
 	//max-width: 300px;
 }
 .callout-multiple-image {
 }
 
+.callout-multiple-rule{
+	height: 2px;
+	width: 50%;
+}
+
 .callout-multiple-headline {
-	
+	margin: 20px 0;
 }
 .callout-multiple-paragraph {
 	padding-bottom: 20px;
+	text-align: center;
+	margin-top: 20px;
 }

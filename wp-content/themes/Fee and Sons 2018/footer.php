@@ -1,15 +1,8 @@
 
-	<div class="row constrain">
-		<div class="footer-container">
-			<div class="copyright">
-				<p>&copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url() ) ?>/" title="<?php bloginfo('description'); ?>"><?php bloginfo('name'); ?></a>. All Rights Reserved.</p>
-			</div><!-- copyright -->
-			<div class="designed-by">
-				<p>Website designed by <a title="Fee and Sons Creative" href="http://feeandsonscreative.com" target="_blank" rel="nofollow">Fee and Sons Creative</a></p>
-			</div><!-- designed-by-->
-		</div> <!--footer-container-->
-	</div><!-- row -->
-</div><!-- container -->
+	
+			<?php
+			get_template_part ('layout/footer/footer_layout');
+			?>
 
 
 <!-- CSS
@@ -34,7 +27,6 @@
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-
-<?php wp_footer(); ?>
+		<?php wp_footer(); ?>
 </body>
 </html>

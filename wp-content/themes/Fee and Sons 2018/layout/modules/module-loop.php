@@ -22,6 +22,15 @@ if( have_rows('flexible_content_field_name') ):
             
         elseif( get_row_layout() == 'callout' ):
             get_template_part('layout/modules/parts/module', 'callout');
+        
+        elseif( get_row_layout() == 'callout_images_only' ):
+            get_template_part('layout/modules/parts/module', 'callout_images_only');
+       
+        elseif( get_row_layout() == 'header_stylized' ):
+            get_template_part('layout/modules/parts/module', 'header_stylized');
+     
+        elseif( get_row_layout() == 'products_alternating' ):
+            get_template_part('layout/modules/parts/module', 'products_alternating');
             
     
 

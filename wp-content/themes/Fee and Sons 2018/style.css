@@ -263,13 +263,6 @@ border: 0px; text-decoration: none; color: #c1c1c1; background-color: #333333;}
 
 
 
-/* #FOOTER
-================================================== */
-.footer-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
 
 
 /* #Media Queries

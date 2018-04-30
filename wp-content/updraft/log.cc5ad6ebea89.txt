@@ -1,0 +1,844 @@
+0000.002 (0) Opened log file at time: Sat, 28 Apr 2018 17:24:46 +0000 on http://fstemplate1-3.local
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 100020.1 MB
+0000.014 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.016 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.029 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1524849124, seconds_ago=87162)
+0000.034 (0) Set semaphore last lock (d) time to 2018-04-28 17:24:46
+0000.035 (0) Semaphore lock (d) complete
+0000.040 (0) Backup run: resumption=0, nonce=cc5ad6ebea89, begun at=1524936286 (0s ago), job type=backup
+0000.044 (0) Scheduling a resumption (1) after 300 seconds (1524936586) in case this run gets aborted
+0000.066 (0) This backup run is not intended for files - skipping
+0000.067 (0) Beginning creation of database dump (WordPress DB)
+0000.100 (0) Table wp_options: Total expected rows (approximate): 227
+0000.153 (0) Table wp_options: Total rows added: 312 in 0.05 seconds
+0000.155 (0) Table wp_options: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_options.table.gz - 92.6 KB)
+0000.163 (0) Table wp_users: Total expected rows (approximate): 1
+0000.170 (0) Table wp_users: Total rows added: 1 in 0.01 seconds
+0000.171 (0) Table wp_users: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_users.table.gz - 0.6 KB)
+0000.180 (0) Table wp_usermeta: Total expected rows (approximate): 26
+0000.188 (0) Table wp_usermeta: Total rows added: 26 in 0.01 seconds
+0000.190 (0) Table wp_usermeta: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_usermeta.table.gz - 1.5 KB)
+0000.208 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.214 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.216 (0) Table wp_commentmeta: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.225 (0) Table wp_comments: Total expected rows (approximate): 1
+0000.230 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0000.232 (0) Table wp_comments: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_comments.table.gz - 0.7 KB)
+0000.243 (0) Table wp_links: Total expected rows (approximate): 0
+0000.251 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0000.254 (0) Table wp_links: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_links.table.gz - 0.4 KB)
+0000.262 (0) Table wp_postmeta: Total expected rows (approximate): 4734
+0000.431 (0) Table wp_postmeta: Total rows added: 4752 in 0.17 seconds
+0000.434 (0) Table wp_postmeta: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_postmeta.table.gz - 35.1 KB)
+0000.451 (0) Table wp_posts: Total expected rows (approximate): 207
+0000.481 (0) Table wp_posts: Total rows added: 208 in 0.03 seconds
+0000.485 (0) Table wp_posts: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_posts.table.gz - 11.5 KB)
+0000.509 (0) Table wp_term_relationships: Total expected rows (approximate): 11
+0000.514 (0) Table wp_term_relationships: Total rows added: 11 in 0.00 seconds
+0000.517 (0) Table wp_term_relationships: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0000.528 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0000.536 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.01 seconds
+0000.537 (0) Table wp_term_taxonomy: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0000.544 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0000.567 (0) Table wp_termmeta: Total rows added: 0 in 0.02 seconds
+0000.569 (0) Table wp_termmeta: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_termmeta.table.gz - 0.4 KB)
+0000.576 (0) Table wp_terms: Total expected rows (approximate): 3
+0000.585 (0) Table wp_terms: Total rows added: 3 in 0.01 seconds
+0000.586 (0) Table wp_terms: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_terms.table.gz - 0.4 KB)
+0000.595 (0) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+0000.606 (0) Table wp_gf_draft_submissions: Total rows added: 0 in 0.01 seconds
+0000.608 (0) Table wp_gf_draft_submissions: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_draft_submissions.table.gz - 0.4 KB)
+0000.622 (0) Table wp_gf_entry: Total expected rows (approximate): 0
+0000.628 (0) Table wp_gf_entry: Total rows added: 0 in 0.00 seconds
+0000.630 (0) Table wp_gf_entry: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_entry.table.gz - 0.5 KB)
+0000.638 (0) Table wp_gf_entry_meta: Total expected rows (approximate): 0
+0000.645 (0) Table wp_gf_entry_meta: Total rows added: 0 in 0.00 seconds
+0000.647 (0) Table wp_gf_entry_meta: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_entry_meta.table.gz - 0.4 KB)
+0000.654 (0) Table wp_gf_entry_notes: Total expected rows (approximate): 0
+0000.659 (0) Table wp_gf_entry_notes: Total rows added: 0 in 0.00 seconds
+0000.660 (0) Table wp_gf_entry_notes: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_entry_notes.table.gz - 0.4 KB)
+0000.671 (0) Table wp_gf_form: Total expected rows (approximate): 0
+0000.678 (0) Table wp_gf_form: Total rows added: 0 in 0.00 seconds
+0000.679 (0) Table wp_gf_form: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_form.table.gz - 0.4 KB)
+0000.697 (0) Table wp_gf_form_meta: Total expected rows (approximate): 0
+0000.728 (0) Table wp_gf_form_meta: Total rows added: 0 in 0.03 seconds
+0000.731 (0) Table wp_gf_form_meta: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_form_meta.table.gz - 0.3 KB)
+0000.760 (0) Table wp_gf_form_view: Total expected rows (approximate): 0
+0000.768 (0) Table wp_gf_form_view: Total rows added: 0 in 0.00 seconds
+0000.770 (0) Table wp_gf_form_view: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_form_view.table.gz - 0.4 KB)
+0000.782 (0) Table wp_responsive_menu_pro: Total expected rows (approximate): 224
+0000.797 (0) Table wp_responsive_menu_pro: Total rows added: 224 in 0.01 seconds
+0000.799 (0) Table wp_responsive_menu_pro: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_responsive_menu_pro.table.gz - 2.1 KB)
+0000.807 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.815 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.816 (0) Table wp_rg_form: Total expected rows (approximate): 0
+0000.817 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.818 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.824 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.825 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.826 (0) Table wp_rg_form: Total rows added: 0 in 0.01 seconds
+0000.826 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.828 (0) Table wp_rg_form: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_form.table.gz - 0.4 KB)
+0000.828 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.832 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.836 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.839 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.841 (0) Table wp_rg_form_meta: Total expected rows (approximate): 0
+0000.842 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.844 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.848 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.848 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.849 (0) Table wp_rg_form_meta: Total rows added: 0 in 0.01 seconds
+0000.850 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.851 (0) Table wp_rg_form_meta: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_form_meta.table.gz - 0.3 KB)
+0000.852 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.855 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.859 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.862 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.864 (0) Table wp_rg_form_view: Total expected rows (approximate): 0
+0000.865 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.868 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.873 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.874 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.876 (0) Table wp_rg_form_view: Total rows added: 0 in 0.01 seconds
+0000.877 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.882 (0) Table wp_rg_form_view: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_form_view.table.gz - 0.4 KB)
+0000.885 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.889 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.893 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.896 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.899 (0) Table wp_rg_incomplete_submissions: Total expected rows (approximate): 0
+0000.900 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.901 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.905 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.906 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.907 (0) Table wp_rg_incomplete_submissions: Total rows added: 0 in 0.01 seconds
+0000.909 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.910 (0) Table wp_rg_incomplete_submissions: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_incomplete_submissions.table.gz - 0.4 KB)
+0000.911 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.915 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.919 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.925 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.926 (0) Table wp_rg_lead: Total expected rows (approximate): 0
+0000.927 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.928 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.934 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.935 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.936 (0) Table wp_rg_lead: Total rows added: 0 in 0.01 seconds
+0000.937 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.938 (0) Table wp_rg_lead: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead.table.gz - 0.5 KB)
+0000.939 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.944 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.949 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.955 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.957 (0) Table wp_rg_lead_detail: Total expected rows (approximate): 0
+0000.958 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.959 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.966 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.967 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.968 (0) Table wp_rg_lead_detail: Total rows added: 0 in 0.01 seconds
+0000.969 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.970 (0) Table wp_rg_lead_detail: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead_detail.table.gz - 0.4 KB)
+0000.971 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.974 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.980 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.982 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.984 (0) Table wp_rg_lead_detail_long: Total expected rows (approximate): 0
+0000.985 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.986 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.990 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.991 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.992 (0) Table wp_rg_lead_detail_long: Total rows added: 0 in 0.01 seconds
+0000.993 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0000.996 (0) Table wp_rg_lead_detail_long: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead_detail_long.table.gz - 0.3 KB)
+0000.997 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.005 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.014 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.020 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.021 (0) Table wp_rg_lead_meta: Total expected rows (approximate): 0
+0001.022 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.024 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.031 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.032 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.033 (0) Table wp_rg_lead_meta: Total rows added: 0 in 0.01 seconds
+0001.034 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.036 (0) Table wp_rg_lead_meta: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead_meta.table.gz - 0.4 KB)
+0001.036 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.041 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.048 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.052 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.053 (0) Table wp_rg_lead_notes: Total expected rows (approximate): 0
+0001.054 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.056 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.060 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.068 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.069 (0) Table wp_rg_lead_notes: Total rows added: 0 in 0.01 seconds
+0001.070 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.072 (0) Table wp_rg_lead_notes: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead_notes.table.gz - 0.4 KB)
+0001.073 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.078 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.097 (0) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+0001.108 (0) Table wp_wfBadLeechers: Total rows added: 0 in 0.01 seconds
+0001.112 (0) Table wp_wfBadLeechers: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfBadLeechers.table.gz - 0.3 KB)
+0001.125 (0) Table wp_wfBlockedCommentLog: Total expected rows (approximate): 0
+0001.137 (0) Table wp_wfBlockedCommentLog: Total rows added: 0 in 0.01 seconds
+0001.138 (0) Table wp_wfBlockedCommentLog: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfBlockedCommentLog.table.gz - 0.3 KB)
+0001.146 (0) Table wp_wfBlockedIPLog: Total expected rows (approximate): 0
+0001.155 (0) Table wp_wfBlockedIPLog: Total rows added: 0 in 0.01 seconds
+0001.158 (0) Table wp_wfBlockedIPLog: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfBlockedIPLog.table.gz - 0.3 KB)
+0001.174 (0) Table wp_wfBlocks7: Total expected rows (approximate): 0
+0001.186 (0) Table wp_wfBlocks7: Total rows added: 0 in 0.01 seconds
+0001.189 (0) Table wp_wfBlocks7: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfBlocks7.table.gz - 0.4 KB)
+0001.199 (0) Table wp_wfConfig: Total expected rows (approximate): 243
+0001.216 (0) Table wp_wfConfig: Total rows added: 218 in 0.01 seconds
+0001.219 (0) Table wp_wfConfig: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfConfig.table.gz - 5.8 KB)
+0001.226 (0) Table wp_wfCrawlers: Total expected rows (approximate): 0
+0001.238 (0) Table wp_wfCrawlers: Total rows added: 0 in 0.01 seconds
+0001.251 (0) Table wp_wfCrawlers: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfCrawlers.table.gz - 0.3 KB)
+0001.277 (0) Table wp_wfFileChanges: Total expected rows (approximate): 0
+0001.289 (0) Table wp_wfFileChanges: Total rows added: 0 in 0.01 seconds
+0001.291 (0) Table wp_wfFileChanges: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfFileChanges.table.gz - 0.3 KB)
+0001.299 (0) Table wp_wfFileMods: Total expected rows (approximate): 0
+0001.306 (0) Table wp_wfFileMods: Total rows added: 0 in 0.00 seconds
+0001.308 (0) Table wp_wfFileMods: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfFileMods.table.gz - 0.4 KB)
+0001.314 (0) Table wp_wfHits: Total expected rows (approximate): 360
+0001.338 (0) Table wp_wfHits: Total rows added: 302 in 0.02 seconds
+0001.340 (0) Table wp_wfHits: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfHits.table.gz - 5.2 KB)
+0001.347 (0) Table wp_wfHoover: Total expected rows (approximate): 0
+0001.351 (0) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+0001.353 (0) Table wp_wfHoover: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfHoover.table.gz - 0.3 KB)
+0001.368 (0) Table wp_wfIssues: Total expected rows (approximate): 0
+0001.383 (0) Table wp_wfIssues: Total rows added: 0 in 0.01 seconds
+0001.387 (0) Table wp_wfIssues: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfIssues.table.gz - 0.4 KB)
+0001.409 (0) Table wp_wfKnownFileList: Total expected rows (approximate): 0
+0001.419 (0) Table wp_wfKnownFileList: Total rows added: 0 in 0.01 seconds
+0001.423 (0) Table wp_wfKnownFileList: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfKnownFileList.table.gz - 0.3 KB)
+0001.432 (0) Table wp_wfLeechers: Total expected rows (approximate): 8
+0001.442 (0) Table wp_wfLeechers: Total rows added: 7 in 0.01 seconds
+0001.444 (0) Table wp_wfLeechers: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfLeechers.table.gz - 0.4 KB)
+0001.456 (0) Table wp_wfLocs: Total expected rows (approximate): 0
+0001.464 (0) Table wp_wfLocs: Total rows added: 0 in 0.00 seconds
+0001.467 (0) Table wp_wfLocs: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfLocs.table.gz - 0.4 KB)
+0001.475 (0) Table wp_wfLogins: Total expected rows (approximate): 3
+0001.486 (0) Table wp_wfLogins: Total rows added: 3 in 0.01 seconds
+0001.488 (0) Table wp_wfLogins: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfLogins.table.gz - 0.6 KB)
+0001.493 (0) Table wp_wfNet404s: Total expected rows (approximate): 0
+0001.499 (0) Table wp_wfNet404s: Total rows added: 0 in 0.00 seconds
+0001.502 (0) Table wp_wfNet404s: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfNet404s.table.gz - 0.3 KB)
+0001.509 (0) Table wp_wfNotifications: Total expected rows (approximate): 2
+0001.517 (0) Table wp_wfNotifications: Total rows added: 2 in 0.01 seconds
+0001.520 (0) Table wp_wfNotifications: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfNotifications.table.gz - 0.5 KB)
+0001.527 (0) Table wp_wfPendingIssues: Total expected rows (approximate): 0
+0001.534 (0) Table wp_wfPendingIssues: Total rows added: 0 in 0.01 seconds
+0001.535 (0) Table wp_wfPendingIssues: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfPendingIssues.table.gz - 0.4 KB)
+0001.542 (0) Table wp_wfReverseCache: Total expected rows (approximate): 0
+0001.547 (0) Table wp_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0001.549 (0) Table wp_wfReverseCache: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfReverseCache.table.gz - 0.3 KB)
+0001.557 (0) Table wp_wfSNIPCache: Total expected rows (approximate): 0
+0001.565 (0) Table wp_wfSNIPCache: Total rows added: 0 in 0.01 seconds
+0001.567 (0) Table wp_wfSNIPCache: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfSNIPCache.table.gz - 0.4 KB)
+0001.574 (0) Table wp_wfScanners: Total expected rows (approximate): 0
+0001.580 (0) Table wp_wfScanners: Total rows added: 0 in 0.00 seconds
+0001.581 (0) Table wp_wfScanners: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfScanners.table.gz - 0.3 KB)
+0001.588 (0) Table wp_wfStatus: Total expected rows (approximate): 33
+0001.594 (0) Table wp_wfStatus: Total rows added: 33 in 0.00 seconds
+0001.596 (0) Table wp_wfStatus: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfStatus.table.gz - 1 KB)
+0001.606 (0) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+0001.612 (0) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0001.614 (0) Table wp_wfVulnScanners: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfVulnScanners.table.gz - 0.3 KB)
+0001.622 (0) Table wp_wpgmza: Total expected rows (approximate): 1
+0001.628 (0) Table wp_wpgmza: Total rows added: 1 in 0.00 seconds
+0001.631 (0) Table wp_wpgmza: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza.table.gz - 0.5 KB)
+0001.639 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 0
+0001.645 (0) Table wp_wpgmza_categories: Total rows added: 0 in 0.00 seconds
+0001.647 (0) Table wp_wpgmza_categories: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_categories.table.gz - 0.3 KB)
+0001.654 (0) Table wp_wpgmza_category_maps: Total expected rows (approximate): 0
+0001.658 (0) Table wp_wpgmza_category_maps: Total rows added: 0 in 0.00 seconds
+0001.660 (0) Table wp_wpgmza_category_maps: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_category_maps.table.gz - 0.3 KB)
+0001.666 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0001.671 (0) Table wp_wpgmza_circles: Total rows added: 0 in 0.00 seconds
+0001.674 (0) Table wp_wpgmza_circles: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_circles.table.gz - 0.3 KB)
+0001.680 (0) Table wp_wpgmza_datasets: Total expected rows (approximate): 0
+0001.686 (0) Table wp_wpgmza_datasets: Total rows added: 0 in 0.00 seconds
+0001.687 (0) Table wp_wpgmza_datasets: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_datasets.table.gz - 0.3 KB)
+0001.695 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0001.702 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.00 seconds
+0001.703 (0) Table wp_wpgmza_maps: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_maps.table.gz - 0.7 KB)
+0001.709 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0001.715 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0001.716 (0) Table wp_wpgmza_polygon: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_polygon.table.gz - 0.4 KB)
+0001.723 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0001.729 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0001.730 (0) Table wp_wpgmza_polylines: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_polylines.table.gz - 0.3 KB)
+0001.737 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0001.741 (0) Table wp_wpgmza_rectangles: Total rows added: 0 in 0.00 seconds
+0001.742 (0) Table wp_wpgmza_rectangles: finishing file (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_rectangles.table.gz - 0.3 KB)
+0001.747 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_options.table.gz (1/61): adding to final database dump
+0001.794 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_users.table.gz (2/61): adding to final database dump
+0001.796 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_usermeta.table.gz (3/61): adding to final database dump
+0001.799 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_commentmeta.table.gz (4/61): adding to final database dump
+0001.805 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_comments.table.gz (5/61): adding to final database dump
+0001.806 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_links.table.gz (6/61): adding to final database dump
+0001.808 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_postmeta.table.gz (7/61): adding to final database dump
+0001.844 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_posts.table.gz (8/61): adding to final database dump
+0001.855 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_term_relationships.table.gz (9/61): adding to final database dump
+0001.857 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_term_taxonomy.table.gz (10/61): adding to final database dump
+0001.859 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_termmeta.table.gz (11/61): adding to final database dump
+0001.861 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_terms.table.gz (12/61): adding to final database dump
+0001.862 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_draft_submissions.table.gz (13/61): adding to final database dump
+0001.864 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_entry.table.gz (14/61): adding to final database dump
+0001.865 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_entry_meta.table.gz (15/61): adding to final database dump
+0001.867 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_entry_notes.table.gz (16/61): adding to final database dump
+0001.869 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_form.table.gz (17/61): adding to final database dump
+0001.871 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_form_meta.table.gz (18/61): adding to final database dump
+0001.873 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_gf_form_view.table.gz (19/61): adding to final database dump
+0001.874 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_responsive_menu_pro.table.gz (20/61): adding to final database dump
+0001.877 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_form.table.gz (21/61): adding to final database dump
+0001.878 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.882 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_form_meta.table.gz (22/61): adding to final database dump
+0001.883 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.886 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_form_view.table.gz (23/61): adding to final database dump
+0001.887 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_form_view table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.890 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_incomplete_submissions.table.gz (24/61): adding to final database dump
+0001.890 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_incomplete_submissions table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.893 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead.table.gz (25/61): adding to final database dump
+0001.893 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.897 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead_detail.table.gz (26/61): adding to final database dump
+0001.897 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.899 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead_detail_long.table.gz (27/61): adding to final database dump
+0001.900 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_detail table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.902 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead_meta.table.gz (28/61): adding to final database dump
+0001.903 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_meta table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.905 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_rg_lead_notes.table.gz (29/61): adding to final database dump
+0001.905 (0) PHP event: code E_USER_NOTICE: An outdated add-on or custom code is attempting to access the wp_rg_lead_notes table which is not valid in this version of Gravity Forms. Update your add-ons and custom code to prevent loss of form data. Further details: https://docs.gravityforms.com/database-storage-structure-reference/#changes-from-gravity-forms-2-2 (line 5094, wp-content/plugins/gravityforms/gravityforms.php)
+0001.907 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfBadLeechers.table.gz (30/61): adding to final database dump
+0001.908 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfBlockedCommentLog.table.gz (31/61): adding to final database dump
+0001.909 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfBlockedIPLog.table.gz (32/61): adding to final database dump
+0001.911 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfBlocks7.table.gz (33/61): adding to final database dump
+0001.912 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfConfig.table.gz (34/61): adding to final database dump
+0001.915 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfCrawlers.table.gz (35/61): adding to final database dump
+0001.916 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfFileChanges.table.gz (36/61): adding to final database dump
+0001.918 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfFileMods.table.gz (37/61): adding to final database dump
+0001.919 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfHits.table.gz (38/61): adding to final database dump
+0001.927 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfHoover.table.gz (39/61): adding to final database dump
+0001.928 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfIssues.table.gz (40/61): adding to final database dump
+0001.930 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfKnownFileList.table.gz (41/61): adding to final database dump
+0001.931 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfLeechers.table.gz (42/61): adding to final database dump
+0001.932 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfLocs.table.gz (43/61): adding to final database dump
+0001.933 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfLogins.table.gz (44/61): adding to final database dump
+0001.935 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfNet404s.table.gz (45/61): adding to final database dump
+0001.936 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfNotifications.table.gz (46/61): adding to final database dump
+0001.938 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfPendingIssues.table.gz (47/61): adding to final database dump
+0001.939 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfReverseCache.table.gz (48/61): adding to final database dump
+0001.940 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfSNIPCache.table.gz (49/61): adding to final database dump
+0001.941 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfScanners.table.gz (50/61): adding to final database dump
+0001.943 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfStatus.table.gz (51/61): adding to final database dump
+0001.944 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wfVulnScanners.table.gz (52/61): adding to final database dump
+0001.946 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza.table.gz (53/61): adding to final database dump
+0001.950 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_categories.table.gz (54/61): adding to final database dump
+0001.952 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_category_maps.table.gz (55/61): adding to final database dump
+0001.954 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_circles.table.gz (56/61): adding to final database dump
+0001.956 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_datasets.table.gz (57/61): adding to final database dump
+0001.958 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_maps.table.gz (58/61): adding to final database dump
+0001.962 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_polygon.table.gz (59/61): adding to final database dump
+0001.964 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_polylines.table.gz (60/61): adding to final database dump
+0001.966 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db-table-wp_wpgmza_rectangles.table.gz (61/61): adding to final database dump
+0001.967 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: finished writing out complete database file (152 KB)
+0001.984 (0) Total database tables backed up: 61 (backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz, size: 163962, sha256)
+0001.993 (0) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.995 (0) Saving backup history. Total backup size: 160.1 KB
+0001.999 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0002.005 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0002.007 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+0002.009 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0002.022 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0002.027 (0) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+0002.028 (0) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+0002.032 (0) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0002.034 (0) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+0002.035 (0) An error condition has occurred for the first time during this job
+0002.039 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+0002.042 (0) Number of backup sets in history: 6; groups (db): 1
+0002.043 (0) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+0002.044 (0) This backup set is the backup set just made, so will not be deleted.
+0002.044 (0) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+0002.044 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.046 (0) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+0002.046 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.046 (0) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0002.046 (0) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0002.046 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.046 (0) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0002.046 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.047 (0) Number of backup sets in history: 6; groups (files): 1
+0002.049 (0) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+0002.049 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.051 (0) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+0002.051 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.051 (0) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+0002.051 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.052 (0) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0002.052 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0002.053 (0) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0002.053 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0002.054 (0) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0002.054 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.055 (0) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0002.058 (0) Resume backup (cc5ad6ebea89, 0): finish run
+0002.061 (0) Decremented the semaphore (d) by 1
+0002.063 (0) Semaphore (d) unlocked
+0002.064 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0002.070 (0) Rescheduling resumption 1: moving to 120 seconds from now (1524936408)
+0002.073 (0) No email will/can be sent - the user has not configured an email address.
+0002.074 (0) The backup has not finished; a resumption is scheduled
+0123.122 (1) Opened log file at time: Sat, 28 Apr 2018 17:26:49 +0000 on http://fstemplate1-3.local
+0123.124 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 6M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0123.125 (1) Free space on disk containing Updraft's temporary directory: 100017.6 MB
+0123.129 (1) Backup run: resumption=1, nonce=cc5ad6ebea89, begun at=1524936286 (123s ago), job type=backup, previous check-in=1.7s
+0123.131 (1) Scheduling a resumption (2) after 300 seconds (1524936709) in case this run gets aborted
+0123.149 (1) This backup run is not intended for files - skipping
+0123.150 (1) Database dump (WordPress DB): Creation was completed already
+0123.167 (1) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+0123.168 (1) Saving backup history. Total backup size: 160.1 KB
+0123.173 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+0123.176 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0123.177 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+0123.178 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0123.186 (1) Dropbox: access gained; setting chunk size to: 1024 KB
+0123.191 (1) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+0123.192 (1) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+0123.198 (1) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0123.200 (1) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+0123.201 (1) An error condition has occurred for the first time during this job
+0123.205 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+0123.207 (1) Number of backup sets in history: 6; groups (db): 1
+0123.208 (1) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+0123.209 (1) This backup set is the backup set just made, so will not be deleted.
+0123.209 (1) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+0123.209 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0123.210 (1) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+0123.210 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0123.211 (1) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0123.211 (1) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0123.211 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0123.211 (1) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0123.211 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0123.212 (1) Number of backup sets in history: 6; groups (files): 1
+0123.213 (1) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+0123.213 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0123.214 (1) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+0123.214 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0123.215 (1) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+0123.215 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0123.215 (1) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0123.215 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0123.216 (1) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0123.216 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+0123.217 (1) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0123.217 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0123.218 (1) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0123.221 (1) Resume backup (cc5ad6ebea89, 1): finish run
+0123.222 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0123.225 (1) No email will/can be sent - the user has not configured an email address.
+0123.226 (1) The backup has not finished; a resumption is scheduled
+0425.624 (2) Opened log file at time: Sat, 28 Apr 2018 17:31:52 +0000 on http://fstemplate1-3.local
+0425.627 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 10M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0425.629 (2) Free space on disk containing Updraft's temporary directory: 100014 MB
+0425.632 (2) Backup run: resumption=2, nonce=cc5ad6ebea89, begun at=1524936286 (426s ago), job type=backup
+0425.634 (2) Scheduling a resumption (3) after 300 seconds (1524937012) in case this run gets aborted
+0425.654 (2) This backup run is not intended for files - skipping
+0425.656 (2) Database dump (WordPress DB): Creation was completed already
+0425.674 (2) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+0425.676 (2) Saving backup history. Total backup size: 160.1 KB
+0425.680 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+0425.683 (2) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0425.684 (2) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+0425.685 (2) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0425.697 (2) Dropbox: access gained; setting chunk size to: 1024 KB
+0425.700 (2) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+0425.702 (2) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+0425.709 (2) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0425.711 (2) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+0425.712 (2) An error condition has occurred for the first time during this job
+0425.715 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+0425.717 (2) Number of backup sets in history: 6; groups (db): 1
+0425.718 (2) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+0425.719 (2) This backup set is the backup set just made, so will not be deleted.
+0425.719 (2) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+0425.719 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0425.721 (2) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+0425.721 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0425.721 (2) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0425.721 (2) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0425.721 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0425.721 (2) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0425.721 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0425.723 (2) Number of backup sets in history: 6; groups (files): 1
+0425.726 (2) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+0425.726 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0425.727 (2) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+0425.727 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0425.728 (2) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+0425.728 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0425.728 (2) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0425.728 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+0425.729 (2) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0425.729 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+0425.730 (2) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0425.730 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0425.731 (2) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0425.735 (2) Resume backup (cc5ad6ebea89, 2): finish run
+0425.737 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0425.740 (2) No email will/can be sent - the user has not configured an email address.
+0425.741 (2) The backup has not finished; a resumption is scheduled
+0727.790 (3) Opened log file at time: Sat, 28 Apr 2018 17:36:54 +0000 on http://fstemplate1-3.local
+0727.791 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0727.793 (3) Free space on disk containing Updraft's temporary directory: 100020.5 MB
+0727.796 (3) Backup run: resumption=3, nonce=cc5ad6ebea89, begun at=1524936286 (728s ago), job type=backup
+0727.799 (3) Scheduling a resumption (4) after 300 seconds (1524937314) in case this run gets aborted
+0727.813 (3) This backup run is not intended for files - skipping
+0727.815 (3) Database dump (WordPress DB): Creation was completed already
+0727.828 (3) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+0727.830 (3) Saving backup history. Total backup size: 160.1 KB
+0727.834 (3) Requesting upload of the files that have not yet been successfully uploaded (1)
+0727.838 (3) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0727.839 (3) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+0727.841 (3) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0727.848 (3) Dropbox: access gained; setting chunk size to: 1024 KB
+0727.853 (3) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+0727.854 (3) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+0727.860 (3) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+0727.862 (3) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+0727.863 (3) An error condition has occurred for the first time during this job
+0727.866 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+0727.868 (3) Number of backup sets in history: 6; groups (db): 1
+0727.869 (3) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+0727.870 (3) This backup set is the backup set just made, so will not be deleted.
+0727.870 (3) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+0727.870 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0727.871 (3) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+0727.871 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0727.871 (3) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0727.871 (3) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0727.871 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0727.871 (3) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0727.871 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0727.873 (3) Number of backup sets in history: 6; groups (files): 1
+0727.874 (3) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+0727.874 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0727.875 (3) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+0727.875 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0727.875 (3) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+0727.875 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0727.876 (3) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+0727.876 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+0727.877 (3) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+0727.877 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+0727.878 (3) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+0727.878 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0727.879 (3) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0727.883 (3) Resume backup (cc5ad6ebea89, 3): finish run
+0727.884 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0727.888 (3) No email will/can be sent - the user has not configured an email address.
+0727.889 (3) The backup has not finished; a resumption is scheduled
+1041.215 (4) Opened log file at time: Sat, 28 Apr 2018 17:42:08 +0000 on http://fstemplate1-3.local
+1041.216 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1041.218 (4) Free space on disk containing Updraft's temporary directory: 100016.3 MB
+1041.220 (4) Backup run: resumption=4, nonce=cc5ad6ebea89, begun at=1524936286 (1042s ago), job type=backup
+1041.223 (4) Scheduling a resumption (5) after 300 seconds (1524937628) in case this run gets aborted
+1041.238 (4) This backup run is not intended for files - skipping
+1041.239 (4) Database dump (WordPress DB): Creation was completed already
+1041.252 (4) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+1041.254 (4) Saving backup history. Total backup size: 160.1 KB
+1041.258 (4) Requesting upload of the files that have not yet been successfully uploaded (1)
+1041.261 (4) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1041.263 (4) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+1041.264 (4) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1041.275 (4) Dropbox: access gained; setting chunk size to: 1024 KB
+1041.279 (4) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+1041.280 (4) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+1041.288 (4) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+1041.290 (4) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+1041.291 (4) An error condition has occurred for the first time during this job
+1041.294 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+1041.296 (4) Number of backup sets in history: 6; groups (db): 1
+1041.297 (4) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+1041.298 (4) This backup set is the backup set just made, so will not be deleted.
+1041.299 (4) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+1041.299 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1041.300 (4) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+1041.300 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1041.300 (4) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+1041.300 (4) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+1041.300 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1041.300 (4) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+1041.300 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1041.301 (4) Number of backup sets in history: 6; groups (files): 1
+1041.302 (4) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+1041.302 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1041.303 (4) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+1041.303 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1041.303 (4) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+1041.303 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1041.304 (4) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+1041.304 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+1041.304 (4) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+1041.305 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+1041.305 (4) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+1041.306 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1041.307 (4) Retain: saving new backup history (sets now: 6) and finishing retain operation
+1041.311 (4) Resume backup (cc5ad6ebea89, 4): finish run
+1041.312 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1041.316 (4) No email will/can be sent - the user has not configured an email address.
+1041.317 (4) The backup has not finished; a resumption is scheduled
+1379.096 (5) Opened log file at time: Sat, 28 Apr 2018 17:47:45 +0000 on http://fstemplate1-3.local
+1379.097 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1379.099 (5) Free space on disk containing Updraft's temporary directory: 100013.3 MB
+1379.102 (5) Backup run: resumption=5, nonce=cc5ad6ebea89, begun at=1524936286 (1379s ago), job type=backup
+1379.105 (5) Scheduling a resumption (6) after 300 seconds (1524937965) in case this run gets aborted
+1379.120 (5) This backup run is not intended for files - skipping
+1379.121 (5) Database dump (WordPress DB): Creation was completed already
+1379.134 (5) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+1379.135 (5) Saving backup history. Total backup size: 160.1 KB
+1379.139 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+1379.142 (5) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1379.143 (5) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+1379.144 (5) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1379.151 (5) Dropbox: access gained; setting chunk size to: 1024 KB
+1379.156 (5) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+1379.157 (5) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+1379.164 (5) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+1379.166 (5) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+1379.167 (5) An error condition has occurred for the first time during this job
+1379.170 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+1379.172 (5) Number of backup sets in history: 6; groups (db): 1
+1379.173 (5) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+1379.174 (5) This backup set is the backup set just made, so will not be deleted.
+1379.174 (5) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+1379.174 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1379.175 (5) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+1379.175 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1379.176 (5) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+1379.176 (5) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+1379.176 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1379.176 (5) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+1379.176 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1379.177 (5) Number of backup sets in history: 6; groups (files): 1
+1379.178 (5) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+1379.178 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1379.179 (5) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+1379.179 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1379.179 (5) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+1379.179 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1379.180 (5) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+1379.180 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+1379.181 (5) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+1379.181 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+1379.182 (5) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+1379.182 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1379.183 (5) Retain: saving new backup history (sets now: 6) and finishing retain operation
+1379.186 (5) Resume backup (cc5ad6ebea89, 5): finish run
+1379.187 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1379.191 (5) No email will/can be sent - the user has not configured an email address.
+1379.192 (5) The backup has not finished; a resumption is scheduled
+1711.520 (6) Opened log file at time: Sat, 28 Apr 2018 17:53:18 +0000 on http://fstemplate1-3.local
+1711.522 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1711.523 (6) Free space on disk containing Updraft's temporary directory: 100017.9 MB
+1711.526 (6) Backup run: resumption=6, nonce=cc5ad6ebea89, begun at=1524936286 (1712s ago), job type=backup
+1711.530 (6) Scheduling a resumption (7) after 300 seconds (1524938298) in case this run gets aborted
+1711.546 (6) This backup run is not intended for files - skipping
+1711.547 (6) Database dump (WordPress DB): Creation was completed already
+1711.563 (6) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+1711.564 (6) Saving backup history. Total backup size: 160.1 KB
+1711.568 (6) Requesting upload of the files that have not yet been successfully uploaded (1)
+1711.571 (6) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1711.572 (6) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+1711.573 (6) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+1711.581 (6) Dropbox: access gained; setting chunk size to: 1024 KB
+1711.585 (6) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+1711.586 (6) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+1711.593 (6) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+1711.594 (6) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+1711.596 (6) An error condition has occurred for the first time during this job
+1711.599 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+1711.601 (6) Number of backup sets in history: 6; groups (db): 1
+1711.602 (6) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+1711.603 (6) This backup set is the backup set just made, so will not be deleted.
+1711.603 (6) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+1711.603 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1711.604 (6) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+1711.604 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1711.604 (6) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+1711.604 (6) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+1711.604 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1711.604 (6) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+1711.604 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1711.605 (6) Number of backup sets in history: 6; groups (files): 1
+1711.606 (6) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+1711.606 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1711.607 (6) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+1711.608 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1711.608 (6) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+1711.608 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1711.608 (6) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+1711.608 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+1711.609 (6) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+1711.609 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+1711.611 (6) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+1711.611 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1711.612 (6) Retain: saving new backup history (sets now: 6) and finishing retain operation
+1711.615 (6) Resume backup (cc5ad6ebea89, 6): finish run
+1711.616 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1711.620 (6) No email will/can be sent - the user has not configured an email address.
+1711.621 (6) The backup has not finished; a resumption is scheduled
+2017.885 (7) Opened log file at time: Sat, 28 Apr 2018 17:58:24 +0000 on http://fstemplate1-3.local
+2017.887 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 2M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2017.889 (7) Free space on disk containing Updraft's temporary directory: 100014.1 MB
+2017.892 (7) Backup run: resumption=7, nonce=cc5ad6ebea89, begun at=1524936286 (2018s ago), job type=backup
+2017.895 (7) Scheduling a resumption (8) after 300 seconds (1524938604) in case this run gets aborted
+2017.914 (7) This backup run is not intended for files - skipping
+2017.916 (7) Database dump (WordPress DB): Creation was completed already
+2017.929 (7) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+2017.930 (7) Saving backup history. Total backup size: 160.1 KB
+2017.934 (7) Requesting upload of the files that have not yet been successfully uploaded (1)
+2017.936 (7) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+2017.938 (7) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+2017.940 (7) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+2017.948 (7) Dropbox: access gained; setting chunk size to: 1024 KB
+2017.952 (7) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+2017.954 (7) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+2017.961 (7) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+2017.963 (7) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+2017.964 (7) An error condition has occurred for the first time during this job
+2017.967 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+2017.969 (7) Number of backup sets in history: 6; groups (db): 1
+2017.970 (7) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+2017.972 (7) This backup set is the backup set just made, so will not be deleted.
+2017.972 (7) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+2017.972 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2017.973 (7) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+2017.973 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2017.973 (7) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+2017.973 (7) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+2017.973 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2017.974 (7) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+2017.974 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2017.975 (7) Number of backup sets in history: 6; groups (files): 1
+2017.976 (7) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+2017.976 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2017.978 (7) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+2017.978 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2017.979 (7) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+2017.979 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2017.979 (7) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+2017.979 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+2017.981 (7) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+2017.981 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+2017.982 (7) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+2017.982 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2017.983 (7) Retain: saving new backup history (sets now: 6) and finishing retain operation
+2017.987 (7) Resume backup (cc5ad6ebea89, 7): finish run
+2017.988 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2017.992 (7) No email will/can be sent - the user has not configured an email address.
+2017.993 (7) The backup has not finished; a resumption is scheduled
+2323.150 (8) Opened log file at time: Sat, 28 Apr 2018 18:03:29 +0000 on http://fstemplate1-3.local
+2323.151 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 4M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2323.153 (8) Free space on disk containing Updraft's temporary directory: 100025.8 MB
+2323.156 (8) Backup run: resumption=8, nonce=cc5ad6ebea89, begun at=1524936286 (2323s ago), job type=backup
+2323.161 (8) Scheduling a resumption (9) after 300 seconds (1524938909) in case this run gets aborted
+2323.179 (8) This backup run is not intended for files - skipping
+2323.181 (8) Database dump (WordPress DB): Creation was completed already
+2323.195 (8) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+2323.196 (8) Saving backup history. Total backup size: 160.1 KB
+2323.201 (8) Requesting upload of the files that have not yet been successfully uploaded (1)
+2323.204 (8) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+2323.205 (8) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+2323.206 (8) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+2323.213 (8) Dropbox: access gained; setting chunk size to: 1024 KB
+2323.219 (8) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+2323.220 (8) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+2323.227 (8) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+2323.228 (8) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+2323.230 (8) An error condition has occurred for the first time during this job
+2323.233 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+2323.234 (8) Number of backup sets in history: 6; groups (db): 1
+2323.235 (8) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+2323.236 (8) This backup set is the backup set just made, so will not be deleted.
+2323.236 (8) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+2323.236 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2323.238 (8) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+2323.238 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2323.238 (8) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+2323.238 (8) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+2323.238 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2323.238 (8) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+2323.238 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2323.239 (8) Number of backup sets in history: 6; groups (files): 1
+2323.240 (8) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+2323.240 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2323.242 (8) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+2323.242 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2323.242 (8) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+2323.242 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2323.242 (8) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+2323.242 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+2323.243 (8) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+2323.243 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+2323.244 (8) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+2323.244 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2323.245 (8) Retain: saving new backup history (sets now: 6) and finishing retain operation
+2323.249 (8) Resume backup (cc5ad6ebea89, 8): finish run
+2323.250 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2323.253 (8) No email will/can be sent - the user has not configured an email address.
+2323.254 (8) The backup has not finished; a resumption is scheduled
+2636.445 (9) Opened log file at time: Sat, 28 Apr 2018 18:08:43 +0000 on http://fstemplate1-3.local
+2636.446 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.7.1 WP: 4.9.5 PHP: 7.1.8 (apache2handler, Darwin Russs-MacBook-Pro.local 16.7.0 Darwin Kernel Version 16.7.0: Tue Jan 30 11:27:06 PST 2018; root:xnu-3789.73.11~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: en_US Server: Apache/2.2.32 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.8 mod_ssl/2.2.32 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.5M | 6M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2636.447 (9) Free space on disk containing Updraft's temporary directory: 100020.8 MB
+2636.451 (9) Backup run: resumption=9, nonce=cc5ad6ebea89, begun at=1524936286 (2637s ago), job type=backup
+2636.454 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+2636.467 (9) This backup run is not intended for files - skipping
+2636.469 (9) Database dump (WordPress DB): Creation was completed already
+2636.482 (9) backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz: db: This file has not yet been successfully uploaded: will queue
+2636.484 (9) Saving backup history. Total backup size: 160.1 KB
+2636.488 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+2636.491 (9) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+2636.492 (9) Beginning dispatch of backup to remote (dropbox) (instance identifier s-d5fccb7449185f967a97efd89d015cc9)
+2636.493 (9) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+2636.500 (9) Dropbox: access gained; setting chunk size to: 1024 KB
+2636.505 (9) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Couldn't resolve host 'api.dropboxapi.com'
+2636.506 (9) Dropbox: Attempt to upload: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz to: backup_2018-04-28-1724_FSTemplate13_cc5ad6ebea89-db.gz
+2636.514 (9) Dropbox chunked upload exception (Dropbox_CurlException): Couldn't resolve host 'content.dropboxapi.com' (line: 159, file: /Users/russfee/Dropbox/Fee and Sons/templates/fstemplate1-3/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+2636.515 (9) Dropbox error: Couldn't resolve host 'content.dropboxapi.com'
+2636.517 (9) An error condition has occurred for the first time during this job
+2636.520 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=8, retain_db=60
+2636.522 (9) Number of backup sets in history: 6; groups (db): 1
+2636.523 (9) Examining (for databases) backup set with group_id=0, nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+2636.525 (9) This backup set is the backup set just made, so will not be deleted.
+2636.525 (9) Examining (for databases) backup set with group_id=0, nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+2636.525 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2636.526 (9) Examining (for databases) backup set with group_id=0, nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+2636.526 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2636.526 (9) Examining (for databases) backup set with group_id=0, nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+2636.526 (9) Examining (for databases) backup set with group_id=0, nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+2636.526 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2636.526 (9) Examining (for databases) backup set with group_id=0, nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+2636.526 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2636.528 (9) Number of backup sets in history: 6; groups (files): 1
+2636.529 (9) Examining (for files) backup set with nonce=cc5ad6ebea89, datestamp=1524936286 (Apr 28 2018 17:24:46)
+2636.529 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2636.530 (9) Examining (for files) backup set with nonce=41360a75c568, datestamp=1524849124 (Apr 27 2018 17:12:04)
+2636.530 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2636.531 (9) Examining (for files) backup set with nonce=5a3c2635ae41, datestamp=1524762740 (Apr 26 2018 17:12:20)
+2636.531 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2636.531 (9) Examining (for files) backup set with nonce=5eb62de253c8, datestamp=1524676857 (Apr 25 2018 17:20:57)
+2636.531 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+2636.532 (9) Examining (for files) backup set with nonce=bffdd254896c, datestamp=1524676334 (Apr 25 2018 17:12:14)
+2636.532 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+2636.534 (9) Examining (for files) backup set with nonce=93fb92f2c4b1, datestamp=1524670500 (Apr 25 2018 15:35:00)
+2636.534 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2636.535 (9) Retain: saving new backup history (sets now: 6) and finishing retain operation
+2636.538 (9) Resume backup (cc5ad6ebea89, 9): finish run
+2636.540 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2636.542 (9) No email will/can be sent - the user has not configured an email address.
+2636.543 (9) The backup attempt has finished, apparently unsuccessfully

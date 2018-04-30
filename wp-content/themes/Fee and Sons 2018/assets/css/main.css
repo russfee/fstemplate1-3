@@ -704,8 +704,49 @@ body {
   background-color: #fff;
 }
 
+.sub-page-content-container {
+  background-color: #fff;
+  width: 75%;
+  height: 95%;
+  margin: 0 auto;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 756px) {
+  .sub-page-content-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 0px transparent;
+  }
+}
+
+.sub-page-content-topper {
+  height: 10px;
+  width: 100%;
+}
+
+@media screen and (max-width: 756px) {
+  .sub-page-content-topper {
+    display: none;
+  }
+}
+
 /* Elements
 =================================================== */
+/*=================================================
+Banner - Sub Page
+=================================================== */
+.sub-banner-container {
+  height: 300px;
+  overflow: hidden;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*=================================================
 Buttons
 =================================================== */
@@ -729,6 +770,28 @@ Buttons
 
 .btn a:hover {
   color: #333333;
+}
+
+.btn-secondary {
+  color: #333333;
+  padding: 10px;
+  background: #D02630;
+  transition: background .25s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background: #333333;
+  color: #fff;
+}
+
+.btn-secondary a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.btn-secondary a:hover {
+  color: #fff;
 }
 
 /*------------------------------------------------------------------------*  Submit Buttons
@@ -835,6 +898,95 @@ article.main {
   article.main {
     margin-top: 5em;
   }
+}
+
+/*=================================================
+Footer_Layout SCSS
+=================================================== */
+.footer-upper-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  padding: 40px;
+}
+
+.footer-upper-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+}
+
+.footer-nav-container li {
+  list-style: none;
+  display: inline;
+  margin: 0 15px;
+}
+
+@media screen and (max-width: 756px) {
+  .footer-nav-container li {
+    display: block;
+    text-align: center;
+    margin: 15px;
+  }
+}
+
+.footer-nav-container ul {
+  margin: 0;
+}
+
+.footer-nav-container .menu-footer-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-rule {
+  height: 2px;
+  width: 50%;
+  margin: 40px 0;
+}
+
+.footer-lower-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.copyright {
+  width: 50%;
+}
+
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.designed-by {
+  width: 50%;
+  text-align: right;
+}
+
+.designed-by a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* =============================================================================
@@ -1594,10 +1746,59 @@ Top Bar
   flex-flow: column;
   -ms-flex-align: center;
   align-items: center;
+  padding: 20px 10px 0 10px;
+}
+
+.callout-multiple-rule {
+  height: 2px;
+  width: 50%;
+}
+
+.callout-multiple-headline {
+  margin: 20px 0;
 }
 
 .callout-multiple-paragraph {
   padding-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Module - Callout - Images Only
+================================================== */
+.callout-io-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 756px) {
+  .callout-io-container {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .callout-io-container {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.callout-io-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 20px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /* Module - Hero
@@ -1663,9 +1864,132 @@ Top Bar
 /* Module - Paragraph
 ================================================== */
 p {
-  width: 90%;
   margin: 0 auto;
   line-height: 1.5em;
+}
+
+/* Module - Products Alternating
+================================================== */
+.products-alternating-content {
+  padding: 40px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .products-alternating-content {
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+}
+
+.products-alternating-image-left {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  padding: 0 5%;
+}
+
+.products-alternating-image-left img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+@media screen and (max-width: 900px) {
+  .products-alternating-image-left img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+.products-alternating-image-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-order: 2;
+  order: 2;
+  padding: 0 5%;
+}
+
+.products-alternating-image-right img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+@media screen and (max-width: 900px) {
+  .products-alternating-image-right img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .products-alternating-image-right {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+.products-alternating-written-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 5%;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.products-alternating-written-left {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 5%;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+/* Module - Header - Stylized
+================================================== */
+.stylized-header-container {
+  margin-left: 40px;
+}
+
+.stylized-header-container h2 {
+  margin-top: -10px;
+}
+
+.stylized-title-underline {
+  height: 5px;
+  width: 5%;
+  margin-top: -10px;
 }
 
 /* Specific

@@ -25,6 +25,33 @@ Buttons
 
 		}
 	}
+
+}
+
+.btn-secondary {
+	color: $shaft;
+	padding: 10px;
+	background: $primary-color;
+	transition: background .25s ease-in-out;
+	
+	&:hover {
+		background: $shaft;
+		color: $white;
+
+	}
+	
+	a {
+		text-decoration: none;
+		color: $white;
+		padding: 10px;
+
+		
+		&:hover {
+			color: $white;
+
+		}
+	}
+
 }
 
 
