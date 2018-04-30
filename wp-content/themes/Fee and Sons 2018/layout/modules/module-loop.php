@@ -31,6 +31,9 @@ if( have_rows('flexible_content_field_name') ):
      
         elseif( get_row_layout() == 'products_alternating' ):
             get_template_part('layout/modules/parts/module', 'products_alternating');
+        
+        elseif( get_row_layout() == 'news_posts' ):
+            get_template_part('layout/modules/parts/module', 'news_posts');
             
     
 

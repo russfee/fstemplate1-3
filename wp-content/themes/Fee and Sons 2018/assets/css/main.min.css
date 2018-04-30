@@ -717,7 +717,7 @@ body {
   width: 75%;
   height: 95%;
   margin: 0 auto;
-  margin-top: -40px;
+  margin-top: -100px;
   margin-bottom: 40px;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 }
@@ -747,7 +747,7 @@ body {
 Banner - Sub Page
 =================================================== */
 .sub-banner-container {
-  height: 300px;
+  height: 400px;
   overflow: hidden;
   overflow: hidden;
   background-size: cover;
@@ -1632,6 +1632,23 @@ li#field_5_4.gfield.gf_right_half.field_sublabel_below.field_description_below.h
 }
 
 /*=================================================
+NEWS SCSS
+=================================================== */
+.news-story-container {
+  padding: 20px 0;
+  border-bottom: 3px solid #4295CB;
+}
+
+.news-story-container:last-of-type {
+  border: none;
+}
+
+.news-date {
+  margin-top: -10px;
+  padding: 0 0 10px 0;
+}
+
+/*=================================================
 Top Bar
 =================================================== */
 .top-bar-container {
@@ -1874,6 +1891,7 @@ Top Bar
 p {
   margin: 0 auto;
   line-height: 1.5em;
+  margin-top: 10px;
 }
 
 /* Module - Products Alternating
